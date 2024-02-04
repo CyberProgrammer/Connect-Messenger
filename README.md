@@ -6,9 +6,9 @@ For this messaging system, I plan on creating a system that meets the communicat
 Instant communication in our era is taken for granted. In this system I will develop a platform that 
 at the minimum offers user registrations, message posting, and group compositions. 
 
-## Wire-frames ( DRAFT )
+## Solution Diagram
 
-![Alt text](image link)
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/SolutionDiagram.png)
 
 ## Requirements
 
@@ -136,6 +136,28 @@ Main Steps:
 
 
 ### Use Case Diagram
+
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/UseCaseDiagram.png)
+
+## Wireframes ( DRAFT - Simple designs focused on workflow not style )
+
+### Registration
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/Registration.jpg)
+
+### Login
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/Login.jpg)
+
+### Password Reset
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/PasswordReset.jpg)
+
+### Chat Interface
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/ChatInterface.jpg)
+
+### Create Chat
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/CreateChat.jpg)
+
+### Group Management
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/GroupManagement.jpg)
 
 
 
