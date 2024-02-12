@@ -19,9 +19,9 @@ at the minimum offers user registrations, message posting, and group composition
 
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/SolutionDiagram.png)
 
-## Requirements
+# Requirements
 
-### User Stories
+## User Stories
 
 <ins>Theme: Login</ins>
 
@@ -79,7 +79,7 @@ at the minimum offers user registrations, message posting, and group composition
     *	Users should have the option to enable two-factor authentication during registration or later in the account settings.
     *	Users can change their password and manage security settings.
 
-### Use Cases
+## Use Cases
 
 <ins>Use Case 1:	User registration </ins>
 
@@ -143,8 +143,7 @@ Main Steps:
 5. Search results are limited to messages in which the user is a participant to ensure privacy.
 6. Users can quickly find and review specific messages within their conversation history.
 
-
-### Use Case Diagram
+## Use Case Diagram
 
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/UseCaseDiagram.png)
 
@@ -168,7 +167,7 @@ Main Steps:
 ### Group Management
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/GroupManagement.jpg)
 
-### Requirements Table
+## Requirements Table
 
 | ID | Requirement | Testability |
 |----|-------------|-------------|
@@ -178,5 +177,5 @@ Main Steps:
 | 4  | Users shall be able to create groups, add/remove members, and view group chat history. | Yes |
 | 5  | The search functionality shall allow users to search for users within the messaging interface. | Yes |
 
-
+[Back to Top](#connect-messenger)
 
