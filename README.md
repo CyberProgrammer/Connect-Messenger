@@ -12,7 +12,7 @@
 ## Concept Description
 
 For this messaging system, I plan on creating a system that meets the communication needs of users. 
-Instant communication in our era is taken for granted. In this system I will develop a platform that 
+Communication in our era is taken for granted. In this system I will develop a platform that 
 at the minimum offers user registrations, message posting, and group compositions. 
 
 ## Solution Diagram
