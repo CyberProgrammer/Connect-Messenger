@@ -1,5 +1,14 @@
 # Connect Messenger
 
+[Concept Description](#concept-description) <br>
+[Solution Diagram](#solution-diagram) <br>
+[Requirements](#requirements) <br>
+[User Stories](#user-stories) <br>
+[Use Cases](#use-cases) <br>
+[Use Case Diagram](#use-case-diagram) <br>
+[Wireframes](#wireframes) <br>
+[Requirements Table](#requirements-table) <br>
+ 
 ## Concept Description
 
 For this messaging system, I plan on creating a system that meets the communication needs of users. 
@@ -139,7 +148,7 @@ Main Steps:
 
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/UseCaseDiagram.png)
 
-## Wireframes ( DRAFT - Simple designs focused on workflow not style )
+## Wireframes
 
 ### Registration
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/Registration.jpg)
@@ -159,9 +168,12 @@ Main Steps:
 ### Group Management
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/GroupManagement.jpg)
 
+### Requirements Table
 
-
-
-
-
-
+| ID | Requirement | Testability |
+|----|-------------|-------------|
+| 1  | The system shall allow new users to create an account and log in using registered credentials. | Yes |
+| 2  | The system shall provide a password reset feature for registered users. | Yes |
+| 3  | The messaging system shall deliver real-time messages instantly to the recipient. | Yes |
+| 4  | Users shall be able to create groups, add/remove members, and view group chat history. | Yes |
+| 5  | The search functionality shall allow users to search for users within the messaging interface. | Yes |
