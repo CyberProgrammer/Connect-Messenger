@@ -13,7 +13,7 @@
 
 For this messaging system, I plan on creating a system that meets the communication needs of users. 
 Communication in our era is taken for granted. In this system I will develop a platform that 
-at the minimum offers user registrations, message posting, and group compositions. 
+at the minimum offers user registrations, message posting, and group compositions. Messages are fetched, modified, and broadcasted using a WebSocket server.
 
 ## Solution Diagram
 
