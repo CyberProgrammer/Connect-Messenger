@@ -12,16 +12,16 @@
 ## Concept Description
 
 For this messaging system, I plan on creating a system that meets the communication needs of users. 
-Instant communication in our era is taken for granted. In this system I will develop a platform that 
+Communication in our era is taken for granted. In this system I will develop a platform that 
 at the minimum offers user registrations, message posting, and group compositions. 
 
 ## Solution Diagram
 
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/SolutionDiagram.png)
 
-## Requirements
+# Requirements
 
-### User Stories
+## User Stories
 
 <ins>Theme: Login</ins>
 
@@ -79,7 +79,7 @@ at the minimum offers user registrations, message posting, and group composition
     *	Users should have the option to enable two-factor authentication during registration or later in the account settings.
     *	Users can change their password and manage security settings.
 
-### Use Cases
+## Use Cases
 
 <ins>Use Case 1:	User registration </ins>
 
@@ -143,8 +143,7 @@ Main Steps:
 5. Search results are limited to messages in which the user is a participant to ensure privacy.
 6. Users can quickly find and review specific messages within their conversation history.
 
-
-### Use Case Diagram
+## Use Case Diagram
 
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/UseCaseDiagram.png)
 
@@ -168,7 +167,11 @@ Main Steps:
 ### Group Management
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/GroupManagement.jpg)
 
+<<<<<<< HEAD
 ### Requirements Table
+=======
+## Requirements Table
+>>>>>>> f2ffc4a30fa8486f5a5e31fcf71f476a9123f0e2
 
 | ID | Requirement | Testability |
 |----|-------------|-------------|
@@ -177,3 +180,9 @@ Main Steps:
 | 3  | The messaging system shall deliver real-time messages instantly to the recipient. | Yes |
 | 4  | Users shall be able to create groups, add/remove members, and view group chat history. | Yes |
 | 5  | The search functionality shall allow users to search for users within the messaging interface. | Yes |
+<<<<<<< HEAD
+=======
+
+[Back to Top](#connect-messenger)
+
+>>>>>>> f2ffc4a30fa8486f5a5e31fcf71f476a9123f0e2
