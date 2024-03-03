@@ -6,6 +6,8 @@
 [User Stories](#user-stories) <br>
 [Use Cases](#use-cases) <br>
 [Use Case Diagram](#use-case-diagram) <br>
+[Entity Relationship Diagram](#entity-relationship-diagram) <br>
+[UML Class Diagram](#uml-class-diagram) <br>
 [Wireframes](#wireframes) <br>
 [Requirements Table](#requirements-table) <br>
  
@@ -28,7 +30,7 @@ at the minimum offers user registrations, message posting, and group composition
 1.	As a new user, I want to create an account so that I can start using the application to communicate with colleagues and friends.
 
     Conditions of satisfaction:
-    *	Registration form must include inputs for first name, last name, username, password, email, and phone number.
+    *	Registration form must include inputs for first name, last name, username, password, and email.
     *	If input validation passes, a confirmation email will be sent to the user.
     *	The user can now log in using the registered credentials.
 
@@ -133,6 +135,15 @@ Main Steps:
 ## Use Case Diagram
 
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/UseCaseDiagram.png)
+
+## Entity Relationship Diagram
+
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/ERD.jpg)
+
+## UML Class Diagram
+
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/UML.jpg)
+
 
 ## Wireframes
 
