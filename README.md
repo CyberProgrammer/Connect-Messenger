@@ -13,7 +13,7 @@
 
 For this messaging system, I plan on creating a system that meets the communication needs of users. 
 Communication in our era is taken for granted. In this system I will develop a platform that 
-at the minimum offers user registrations, message posting, and group compositions. 
+at the minimum offers user registrations, message posting, and group compositions. Messages are fetched, modified, and broadcasted using a WebSocket server.
 
 ## Solution Diagram
 
@@ -48,11 +48,11 @@ at the minimum offers user registrations, message posting, and group composition
 
 <ins>Theme: Messaging</ins>
 
-4.	As a user, I want to send real-time messages to my friends, so that we can have immediate and responsive communication.
+4.	As a user, I want to send messages to my friends, so that we can have immediate and responsive communication.
 
     Conditions of satisfaction:
-    *	Messages are delivered instantly to the recipient.
-    *	Both the sender and recipient receive real-time notifications for new messages.
+    *	Messages are delivered with low-latency to the recipient.
+    *	Both the sender and recipient receive notifications for new messages.
     *	Users can send text messages, emojis, and multimedia content.
 
 5.	As a user, I want to create a group, so that I can collaborate with multiple people in a single chat.
@@ -118,20 +118,7 @@ Main Steps:
 5. Group members can send real-time messages within the group.
 6. Group owners can manage group membership and settings.
 
-<ins> Use Case 4:	Password Reset </ins>
-
-Objective:	Enable registered users to reset their passwords if forgotten.
-
-Main Steps:
-1. User attempts to log in but forgets their password.
-2. User clicks on the "Forgot Password" link on the login screen.
-3. User enters the registered email address.
-4. The system sends a password reset link to the user's email.
-5. User clicks on the reset link and sets a new password.
-6. The new password is validated and saved in the system.
-7. The user can now log in using the updated credentials.
-
-<ins> Use Case 5	Message Search and Filtering </ins>
+<ins> Use Case 4:	Message Search and Filtering </ins>
 
 Objective:	Allow users to search for and filter messages based on specific criteria.
 
@@ -149,14 +136,11 @@ Main Steps:
 
 ## Wireframes
 
-### Registration
-![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/Registration.jpg)
+### Landing Page
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/Landing_page.jpg)
 
-### Login
-![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/Login.jpg)
-
-### Password Reset
-![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/PasswordReset.jpg)
+### Login / Registration (Auth0)
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/Authentication.jpg)
 
 ### Chat Interface
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/ChatInterface.jpg)
@@ -167,11 +151,7 @@ Main Steps:
 ### Group Management
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/Wireframes/GroupManagement.jpg)
 
-<<<<<<< HEAD
 ### Requirements Table
-=======
-## Requirements Table
->>>>>>> f2ffc4a30fa8486f5a5e31fcf71f476a9123f0e2
 
 | ID | Requirement | Testability |
 |----|-------------|-------------|
@@ -180,9 +160,5 @@ Main Steps:
 | 3  | The messaging system shall deliver real-time messages instantly to the recipient. | Yes |
 | 4  | Users shall be able to create groups, add/remove members, and view group chat history. | Yes |
 | 5  | The search functionality shall allow users to search for users within the messaging interface. | Yes |
-<<<<<<< HEAD
-=======
 
 [Back to Top](#connect-messenger)
-
->>>>>>> f2ffc4a30fa8486f5a5e31fcf71f476a9123f0e2
