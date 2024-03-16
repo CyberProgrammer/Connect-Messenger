@@ -1,0 +1,83 @@
+.create-chat{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    color: white;
+}
+
+.create-chat .title{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(1,1,1,0.8);
+    padding: 1% 0 1% 0;
+}
+
+.create-chat .title h3{
+    width: 50%;
+    margin-left: 25%;
+}
+
+.create-chat .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.create-chat .form form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.create-chat .form form button{
+    width: 40%;
+    height: 40px;
+    margin: 5%;
+}
+
+.create-chat .form form input{
+    margin-bottom: 5%;
+}
+
+.create-chat .form form .message-recipient{
+    height: 40px;
+    max-height: 40px;
+    padding: 2%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.create-chat .form form .message-input{
+    height: 100px;
+    padding: 2%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.matching-users{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    max-height: 150px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+    padding: 1% 0 2% 0;
+    margin-bottom: 5%;
+}
+
+.matching-users ul{
+    list-style-type: none;
+}
+
+.matching-users li{
+    padding: 2% 0 2% 0;
+    margin: 1% 0 0 2%;
+}
+
+.matching-users .clickable-user{
+    cursor: pointer;
+}

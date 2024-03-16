@@ -1,0 +1,77 @@
+.editGroup{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.editGroup select{
+    margin-top: 1%;
+    padding: 1%;
+}
+
+.editGroup .error{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 3%;
+    background-color: white;
+}
+
+.selectedGroupDetails{
+    width: 100%;
+    color: white;
+}
+
+.selectedGroupDetails .title{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    color: white;
+    background-color: transparent !important;
+    border-bottom: 2px solid white;
+    margin: 1% 0 2% 0;
+}
+
+.editGroupInput{
+    margin: 2% 0 2% 0;
+}
+
+.editGroupInput input, select{
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 0.5%;
+}
+
+.editGroupBtns{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 2%;
+}
+
+.editGroupBtns button{
+    width: 25%;
+    margin: 1%;
+}
+
+#invited_users{
+    color: black;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+#invited_users li{
+    list-style-type: none;
+}
+
+.invited_user{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    max-height: 50px;
+    width: 90%;
+    margin-left: 5%;
+}

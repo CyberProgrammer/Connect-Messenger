@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'SourceSansRegular';
+    src: url('./assets/fonts/SourceSans/SourceSans3-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SourceSansMedium';
+    src: url('./assets/fonts/SourceSans/SourceSans3-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "SourceSansRegular", serif;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* Scroll bars */
+.primaryScroll::-webkit-scrollbar{
+    width: 8px;
+}
+
+.primaryScroll::-webkit-scrollbar-track{
+    background-color: #303030;
+    border-radius: 0 4px 4px 0;
+}
+
+.primaryScroll::-webkit-scrollbar-thumb {
+    border-radius: 0 2px 2px 0;
+    background-color: #9EA6D8;
+}
+
+.primaryScroll::-webkit-scrollbar-thumb:hover {
+    background-color: #222222;
+}
+
+html,
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+html {
+    font-size: 62.5%; /* makes 1rem 10px */
+    overflow: hidden;
+}
+
+/* headings */
+h1 {
+    font-size: 3rem;
+    font-family: "SourceSansRegular", serif;
+}
+h2 {
+    font-size: 2.4rem;
+    font-family: "SourceSansRegular", serif;
+}
+h3 {
+    font-size: 2rem;
+    font-family: "SourceSansRegular", serif;
+}
+h4 {
+    font-size: 1.8rem;
+    font-family: "SourceSansRegular", serif;
+}
+h5 {
+    font-size: 1.6rem;
+    font-family: "SourceSansRegular", serif;
+}
+h6 {
+    font-size: 1.4rem;
+    font-family: "SourceSansRegular", serif;
+}
+
+a{
+    font-size: 1.75rem;
+    font-family: "SourceSansMedium", serif;
+}
+
+.buttonPrimary{
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    color: white;
+    background-color: #1B216B;
+}
+
+.buttonAlternate {
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    color: #1B216B;
+    background-color: #9ea6d8;
+}
+
+.buttonAlternate:hover {
+    outline: 2px solid #9EA6D8;
+}
+
+.buttonWhite {
+    height: 30px;
+    border: 0;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+
+.buttonWhite:hover {
+    outline: 2px solid white;
+}
+
+.view-controls .selected{
+    border-bottom: 2px solid white;
+}
+
+

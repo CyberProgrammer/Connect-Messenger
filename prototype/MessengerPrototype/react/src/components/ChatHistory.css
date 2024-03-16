@@ -1,0 +1,125 @@
+.message-view .chat-name{
+    display: flex;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    color: white;
+    position: absolute;
+    backdrop-filter: blur(5px);
+    background-color: rgba(1,1,1,0.8);
+    padding: 1% 0 1% 5%;
+}
+
+.chat-name-expanded{
+    opacity: 1 !important;
+}
+
+.chat-history{
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    height: 77vh;
+}
+
+.chats{
+    height: 100%;
+    scroll-behavior: smooth;
+}
+
+.first-message{
+    padding-top: 5%;
+}
+
+.last-message{
+    padding-bottom: 3% !important;
+}
+
+.message-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+}
+
+.message-details p{
+    text-align: right;
+}
+
+.chat-title{
+    margin-bottom: 3%;
+    text-align: center;
+}
+
+.app-user-message{
+    width: 35%;
+    margin: 1% 0 1% 60%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #9ea6d8;
+}
+
+.other-user-message{
+    width: 35%;
+    margin: 1% 0 1% 5%;
+    padding: 2%;
+    border-radius: 10px;
+    background-color: #F9CB76;
+}
+
+/* Send chat */
+.send-message-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in;
+    width: 75%;
+    padding: 1% 0 1% 0;
+    position: absolute;
+    background-color: rgba(1,1,1,0.6);
+    bottom: 0;
+}
+
+.send-message-container-expanded{
+    opacity: 1;
+}
+
+.send-message-container::before{
+    backdrop-filter: blur(10px);
+    filter: blur(5px);
+}
+
+.send-message-container textarea,
+pre {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    border: 0;
+}
+
+.send-message-container .send-message-input{
+    display: block;
+    overflow-y: auto;
+    resize: none;
+    border-radius: 10px;
+    color: white;
+    background-color: #303030;
+    padding: 5px;
+    margin: 0 2% 0 30%;
+    font-size: 1.25em;
+    width: 40%;
+    max-width: 40%;
+    height: 70px;
+    line-height: 20px;
+}
+
+.send-message-container button{
+    height: 40px;
+    width: 10%;
+}
+
+#sendBtn img{
+    height: 30px;
+    width: auto;
+}

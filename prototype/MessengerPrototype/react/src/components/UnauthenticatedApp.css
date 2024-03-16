@@ -1,0 +1,59 @@
+#welcome{
+    height: 100vh !important;
+}
+
+html, body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #1B216B;
+}
+
+main{
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+#welcome {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 6% 0 0 25%;
+    border-radius: 15px 15px 15px 15px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    background-color: #FFFFFF;
+}
+
+#welcome .logo{
+    min-width: 150px !important;
+    min-height: 150px !important;
+    max-width: 20% !important;
+    max-height: 20% !important;
+    margin-top: 5%;
+}
+
+#welcome .title{
+    max-height: 25%;
+    color: #1B216B;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    text-align: center;
+}
+
+#welcome .button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#welcome button{
+    width: 150px;
+    height: 10% !important;
+}

@@ -1,0 +1,48 @@
+.createGroup h4{
+    color: white;
+}
+
+.createGroup input{
+    height: 40px;
+    max-height: 40px;
+    padding: 2%;
+    border: 2px solid white;
+    border-radius: 5px;
+    margin: 2% 0 2% 0;
+}
+
+.createGroup .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 5%;
+}
+
+.buttons button{
+    width: 40%;
+    height: 40px;
+    margin: 1% 0 2% 0;
+}
+
+#invited_users{
+    margin-bottom: 5%;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 5px;
+    max-height: 150px;
+    overflow-y: scroll;
+}
+
+#invited_users li{
+    list-style-type: none;
+}
+
+.invited_user{
+    display: flex;
+    align-items: center;
+    min-height: 50px;
+    max-height: 50px;
+    width: 90%;
+    margin-left: 5%;
+}

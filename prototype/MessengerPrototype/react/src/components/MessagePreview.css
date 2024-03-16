@@ -1,0 +1,41 @@
+.message-preview{
+    display: flex;
+    width: 80%;
+    margin: 1% 0 1% 10%;
+    border-radius: 5px;
+    background-color: #9EA6D8;
+}
+
+.message-preview img{
+    width: 20%;
+    margin: 2% 5% 2% 10%;
+    border-radius: 15px;
+}
+
+.message-preview .preview{
+    display: flex;
+    flex-direction: column;
+    margin: 4% 5% 2% 10%;
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.message-preview #header{
+    display: flex;
+    height: 50px;
+}
+
+.message-preview #header img{
+    height: 25px;
+    width: auto;
+    margin: 0;
+}
+.message-preview .preview h5{
+    padding-bottom: 10%;
+}
+
+.message-preview .preview-empty{
+    display: flex;
+    flex-direction: column;
+    margin: 4% 5% 2% 10%;
+    color: rgba(0, 0, 0, 0.75);
+}

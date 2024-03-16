@@ -1,0 +1,51 @@
+.groups{
+    width: 100%;
+    background-color: #303030;
+}
+
+.groups .content{
+    display: flex;
+    flex-direction: column;
+    height: 90vh;
+}
+
+.groups .title{
+    display: flex;
+    align-items: center;
+    color: white;
+    background-color: rgba(1,1,1,0.8);
+    padding: 1% 0 1% 0;
+}
+
+.groups .title h3{
+    width: 100%;
+    margin-left: 25%;
+}
+
+.groups .form{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+}
+
+.groups .form .options{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.groups .form .options button{
+    width: 40%;
+    height: 200px;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+
+.groups .form .createGroup{
+    margin-top: 2%;
+}
+
+.groups .form .editGroup{
+    margin-top: 2%;
+}
