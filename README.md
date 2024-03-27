@@ -8,6 +8,7 @@
 [Use Case Diagram](#use-case-diagram) <br>
 [Entity Relationship Diagram](#entity-relationship-diagram) <br>
 [UML Class Diagram](#uml-class-diagram) <br>
+[Data Access Layer](#data-access-layer) <br>
 [Wireframes](#wireframes) <br>
 [Requirements Table](#requirements-table) <br>
  
@@ -144,6 +145,23 @@ Main Steps:
 
 ![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/images/UML.jpg)
 
+
+## Data Access Layer
+
+Model <br>
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/data-layer/api-model.png)
+
+Chats <br>
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/data-layer/chats-api.png)
+
+Group Participants <br>
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/data-layer/group-participants-api.png)
+
+Groups <br>
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/data-layer/groups-api.png)
+
+Messages <br>
+![image link](https://github.com/CyberProgrammer/Connect-Messenger/blob/master/data-layer/messages-api.png)
 
 ## Wireframes
 
