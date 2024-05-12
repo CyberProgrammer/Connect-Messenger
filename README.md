@@ -19,10 +19,8 @@ Communication in our era is taken for granted. This system will be a work in pro
 at the minimum offers the ability to create chats, create groups, manage groups. Initial data is fetched using a API.
 Data that is created, modified, or deleted is modified and broadcasted to the appropriate users using a WebSocket server.
 
-## Product Demonstration
-<video controls>
-  <source src="./videos/FullRecording.mp4" type="video/mp4">
-</video>
+## Product Demonstration (YouTube Link)
+[![Video](https://img.youtube.com/vi/iyYNWgCp3C0/0.jpg)](https://www.youtube.com/watch?v=iyYNWgCp3C0)
 
 ## Solution Diagram
 
