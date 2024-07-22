@@ -15,7 +15,7 @@
  
 ## Concept Description
 
-Connect Messenger is a full-stack messaging system designed to meet the diverse communication needs of users, whether for individual conversations or team collaborations. This system is currently a work in progress, aiming to provide a robust and efficient platform for real-time communication.
+Connect Messenger aims to meet the diverse communication needs of users in real-time, whether for individual conversations or team collaborations.
 
 ## Product Demonstration (YouTube Link)
 [![Video](https://img.youtube.com/vi/iyYNWgCp3C0/0.jpg)](https://www.youtube.com/watch?v=iyYNWgCp3C0)
